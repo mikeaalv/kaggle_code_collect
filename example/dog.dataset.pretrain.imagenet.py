@@ -1,5 +1,5 @@
 ##try the original notebook https://www.kaggle.com/pvlima/use-pretrained-pytorch-models/data
-## grey Scale works
+## grey Scale works (grey figures are kind of subset of colored figures)
 ## small data set and augumentation not really needed because for each class the sample size is smaller than the fungi data
 import time
 import numpy as np
