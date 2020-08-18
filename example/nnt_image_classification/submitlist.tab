@@ -1,0 +1,29 @@
+names	net_struct	batch_size	test_batch_size	epochs	learning_rate	random_seed	optimizer	Transferlearning	freeze
+resnet18_transfer	resnet18	15	15	500	0.001	1	sgd	1	layer3
+resnet34_transfer	resnet34	15	15	500	0.001	1	sgd	1	layer3
+resnet50_transfer	resnet50	15	15	500	0.001	1	sgd	1	layer3
+resnet34_transfer_r2	resnet34	15	15	500	0.001	2	sgd	1	layer3
+resnet50_transfer_r2	resnet50	15	15	500	0.001	2	sgd	1	layer3
+resnet34_transfer_adam	resnet34	15	15	500	0.001	1	adam	1	layer3
+resnet50_transfer_adam	resnet50	15	15	500	0.001	1	adam	1	layer3
+resnet34_transfer_layer4	resnet34	15	15	500	0.001	1	sgd	1	layer4
+resnet50_transfer_layer4	resnet50	15	15	500	0.001	1	sgd	1	layer4
+resnet34_transfer_scratch	resnet34	15	15	500	0.001	1	adam	0	
+resnet50_transfer_scratch	resnet50	15	15	500	0.001	1	adam	0	
+resnet18_transfer_hlr	resnet18	15	15	500	0.002	1	sgd	1	layer3
+resnet34_transfer_hlr	resnet34	15	15	500	0.002	1	sgd	1	layer3
+resnet34_transfer_lbat	resnet34	5	5	500	0.001	1	sgd	1	layer3
+resnet50_transfer_lbat	resnet50	5	5	500	0.001	1	sgd	1	layer3
+resnet34_transfer_fc	resnet34	15	15	500	0.001	1	sgd	1	fc
+resnet50_transfer_fc	resnet50	15	15	500	0.001	1	sgd	1	fc
+resnet34_transfer_scratch_r2	resnet34	15	15	500	0.001	2	adam	0	
+resnet50_transfer_scratch_r2	resnet50	15	15	500	0.001	2	adam	0	
+resnet50_transfer_adam	resnet50	15	15	300	0.001	1	adam	1	layer3
+resnet50_transfer_adam_r2	resnet50	15	15	300	0.001	2	adam	1	layer3
+resnet50_transfer_adam_r3	resnet50	15	15	300	0.001	3	adam	1	layer3
+resnet50_transfer_r3	resnet50	15	15	300	0.001	3	adam	1	layer3
+resnet50_transfer_r4	resnet50	15	15	300	0.001	4	adam	1	layer3
+resnet101_transfer_adam	resnet101	15	15	300	0.001	1	adam	1	layer3
+resnet101_transfer_adam_r2	resnet101	15	15	300	0.001	2	adam	1	layer3
+resnet50_transfer_adam_lay2	resnet50	15	15	300	0.001	1	adam	1	layer2
+resnet50_transfer_adam_lay2_r2	resnet50	15	15	300	0.001	2	adam	1	layer2
